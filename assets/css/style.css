@@ -1009,9 +1009,12 @@ section {
   margin-bottom: 0px;
 }
 
-.footer .copyright,
-.footer .credits {
+.footer .copyright {
   font-size: 14px;
+}
+
+.footer .credits {
+  font-size: 9px;
 }
 
 .social a {
