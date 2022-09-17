@@ -1,0 +1,18 @@
+.formulario {
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 24px 1px rgb(0 0 0 / 10%);
+}
+
+.texto-preto {
+    color: black;
+}
+
+.hero-section, .hero-section>.container>.row {
+    min-height: 700px;
+}
+
+.hero-section .wave {
+    bottom: -150px;
+}
