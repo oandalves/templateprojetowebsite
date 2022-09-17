@@ -335,7 +335,6 @@ section {
 }
 
 .cta-section .btn {
-  background: #000000;
   color: #fff;
 }
 
@@ -348,7 +347,7 @@ section {
 /* Contact Form */
 .form-control {
   height: 48px;
-  border-radius: 0;
+  border-radius: 5px;
   border: 1px solid #dae0e5;
 }
 
@@ -884,7 +883,7 @@ section {
 .hero-section,
 .hero-section>.container>.row {
   height: 100vh;
-  min-height: 880px;
+  min-height: 750px;
 }
 
 .hero-section.inner-page {
@@ -1002,7 +1001,11 @@ section {
 }
 
 .footer a {
-  color: #000;
+  color: #777;
+}
+
+.footer a:hover {
+  color: #2d71a1;
 }
 
 .footer .copyright {
@@ -1026,7 +1029,7 @@ section {
   position: relative;
   text-align: center;
   transition: 0.3s background ease;
-  color: #0d1e2d;
+  color: #2d71a1;
   line-height: 0;
 }
 

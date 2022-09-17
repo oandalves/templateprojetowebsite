@@ -36,9 +36,9 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <!--- <h1><a href="index.html">eCommerce-net</a></h1> -->
+        <h1><a href="index.html">eCommerce-net</a></h1>
         
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+<!---<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
 
       <nav id="navbar" class="navbar">
@@ -275,10 +275,35 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 me-auto text-center text-md-start mb-5 mb-md-0">
-            <h2>Starts Publishing Your Apps</h2>
+            <h2>Crie sua loja virtual agora mesmo</h2>
           </div>
           <div class="col-md-5 text-center text-md-end">
-            <p><a href="#" class="btn d-inline-flex align-items-center"><i class="bx bxl-apple"></i><span>App store</span></a> <a href="#" class="btn d-inline-flex align-items-center"><i class="bx bxl-play-store"></i><span>Google play</span></a></p>
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <input type="text" name="name" class="form-control form-control-lg" id="name" required="" placeholder="Seu nome">
+                </div>
+                <div class="col-md-12 form-group mt-3">
+                  <input type="email" class="form-control form-control-lg" name="email" id="email" required="" placeholder="Seu e-mail">
+                </div>
+                <div class="col-md-12 form-group mt-3">
+                  <input type="text" class="form-control form-control-lg" name="phone" id="phone" required="" placeholder="Seu telefone">
+                </div>
+
+                <div class="col-md-12 mb-3">
+                  <div class="loading">Carregando</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Sua mensagem foi enviada. Nossa equipe entrará em contato com você. Agradecemos o contato!</div>
+                </div>
+
+                <div class="col-md-12 form-group">
+                  <input type="submit" class="btn btn-primary d-block w-100" value="Enviar">
+                </div>
+              </div>
+
+            </form>
+
           </div>
         </div>
       </div>
@@ -291,9 +316,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 mb-4 mb-md-0">
-          <h3>eCommerce-net</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
-            dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
+          <!-- <h3>eCommerce-net</h3> --> <img src="assets/img/logo-ecommercenet.png" alt="Logo da eCommerce-net" class="img-fluid" width="150px">
+          <p>Venda pela internet de forma fácil e com uma loja virtual profissional.<br>Fale agora com nossa equipe de especialistas.</p>
           <p class="social">
             <a href="#"><span class="bi bi-twitter"></span></a>
             <a href="#"><span class="bi bi-facebook"></span></a>
