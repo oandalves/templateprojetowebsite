@@ -1,0 +1,13 @@
+.post-entry .post-text .readmore {
+    border: 1px solid #2d71a1;
+    padding: 10px;
+}
+
+.post-entry .post-text .readmore:hover {
+    background: #2d71a1;
+    padding: 10px;
+    color: #fff;
+}
+.formulario {
+    box-shadow: 0 0 24px 1px rgb(0 0 0 / 10%);
+}

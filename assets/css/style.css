@@ -49,7 +49,8 @@ h6,
 }
 
 .text-primary {
-  color: #2d71a1 !important;
+  color: #ffffff !important;
+  background: #2d71a1;
 }
 
 .border-top {
@@ -435,6 +436,8 @@ section {
 /* Blog */
 .post-entry {
   margin-bottom: 60px;
+  box-shadow: 1px 1px 3px 1px rgb(0 0 0 / 15%);
+  padding: 10px;
 }
 
 .post-entry .post-text .post-meta {
@@ -893,7 +896,7 @@ section {
 
 .hero-section.inner-page .hero-text {
   transform: translateY(-150px);
-  margin-top: -120px;
+  margin-top: -60px;
 }
 
 @media screen and (max-width: 992px) {
