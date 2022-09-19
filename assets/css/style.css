@@ -143,8 +143,8 @@ section {
 /* Feature 1 */
 .feature-1 .wrap-icon {
   margin: 0 auto;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   position: relative;
   margin-bottom: 30px;
@@ -155,7 +155,7 @@ section {
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #3b87bd, #2d71a2);
+  background: linear-gradient(-45deg, #3b87bd, #00afef);
 }
 
 .feature-1 .wrap-icon i {

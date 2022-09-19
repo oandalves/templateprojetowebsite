@@ -11,3 +11,8 @@
 .formulario {
     box-shadow: 0 0 24px 1px rgb(0 0 0 / 10%);
 }
+
+.cta-section-newsletter {
+    background: linear-gradient(to right, rgb(4, 71, 138) 0%, rgb(61, 179, 197) 100%);
+    color: #fff;
+}
