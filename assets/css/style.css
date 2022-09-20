@@ -148,14 +148,14 @@ section {
   border-radius: 50%;
   position: relative;
   margin-bottom: 30px;
-  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);*/
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
 .feature-1 .wrap-icon.icon-1 {
-  background: linear-gradient(-45deg, #3b87bd, #00afef);
+  /* background: linear-gradient(-45deg, #3b87bd, #00afef); */
 }
 
 .feature-1 .wrap-icon i {

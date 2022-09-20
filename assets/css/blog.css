@@ -8,11 +8,33 @@
     padding: 10px;
     color: #fff;
 }
+
 .formulario {
     box-shadow: 0 0 24px 1px rgb(0 0 0 / 10%);
 }
 
-.cta-section-newsletter {
-    background: linear-gradient(to right, rgb(4, 71, 138) 0%, rgb(61, 179, 197) 100%);
+
+/* CTA Section */
+.newsletter {}
+
+.newsletter h2 {
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .newsletter h2 {
+        font-size: 2rem;
+    }
+}
+
+.newsletter .btn {
     color: #fff;
+}
+
+.newsletter .btn i {
+    margin-right: 5px;
+    font-size: 24px;
+    line-height: 0;
 }
