@@ -14,7 +14,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .hero-section, .hero-section>.container>.row {
+
+    .hero-section,
+    .hero-section>.container>.row {
         height: 100vh;
         min-height: 1033px;
     }
@@ -53,7 +55,7 @@
     border-bottom: 1px solid #eae7e5;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    list-style:none;
+    list-style: none;
 }
 
 .faq .faq-list .collapsed {
@@ -88,8 +90,24 @@
     margin-bottom: 1rem;
 }
 
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+    margin: 10px 0px;
+}
 
+.clients  .clientes {
+    padding: 10px;
+}
 
+.clients  .clientes img {
+    opacity: 0.5;
+    transition: 0.3s;
+    width: 120px;
+}
 
-
+.clients .clientes img:hover {
+    opacity: 1;
+}
 
