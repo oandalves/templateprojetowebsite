@@ -15,7 +15,9 @@
 
 
 /* CTA Section */
-.newsletter {}
+.newsletter {
+    background: #00b4c469;
+}
 
 .newsletter h2 {
     color: rgb(0, 0, 0);

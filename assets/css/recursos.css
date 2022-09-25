@@ -2,3 +2,10 @@
     padding: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 380px) {
+    .formas-pagamento {
+        padding: 5px;
+        text-align: center;
+    }
+}
