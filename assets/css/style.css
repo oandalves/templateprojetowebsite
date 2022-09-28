@@ -169,7 +169,6 @@ section {
 }
 
 .feature-1 p {
-  color: #b1b1b1;
 }
 
 /* Step */
@@ -1088,4 +1087,8 @@ section {
   background: #ffffff;
   color: #1391a5;
   box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
+}
+
+.espacamento-home p {
+  line-height: 2rem;
 }
