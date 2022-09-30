@@ -2723,7 +2723,37 @@
     };
   }
 
-  // of the `<html>` and `<body>` rect bounds if horizontally scrollable
+  // of the `<html>` and `<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWQNFDJ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <script type="text/javascript">
+    if (screen.width > 770) {
+
+
+      $(window).on('scroll', function () {
+
+
+        if ($(this).scrollTop() > 140) {
+
+          $('#nave').addClass('scroll');
+          $('.img-logo-topo').css('width', '200px')
+          $('.navbar').attr('height', '80')
+          $('#nave a').attr('font-size', '14')
+
+        } else {
+
+          $('#nave').removeClass('scroll');
+          $('.img-logo-topo').css('width', '220px')
+          $('.navbar').attr('height', '90')
+          $('#nave a').attr('font-size', '15')
+        }
+
+      });
+    }
+  </script>` rect bounds if horizontally scrollable
 
   function getDocumentRect(element) {
     var _element$ownerDocumen;
